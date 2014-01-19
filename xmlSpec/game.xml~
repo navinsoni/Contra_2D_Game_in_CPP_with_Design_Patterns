@@ -1,0 +1,948 @@
+<?xml version = "1.0"?>
+
+<GameData>
+
+<view>
+  <viewWidth>512</viewWidth>
+  <viewHeight>480</viewHeight>
+</view>
+
+<screen>
+  <worldWidth>7680</worldWidth>
+  <worldWidthStart>1024</worldWidthStart>
+  <worldWidthEnd>7424</worldWidthEnd>
+  <worldHeight>480</worldHeight>
+</screen>
+
+<Font>
+  <fontSmaller>font/CalligrapherRegular.ttf</fontSmaller>
+  <fontSmallerSize>18</fontSmallerSize>
+  <fontSmall>font/CalligrapherRegular.ttf</fontSmall>
+  <fontSmallSize>28</fontSmallSize>
+  <fontNormal>font/CalligrapherRegular.ttf</fontNormal>
+  <fontNormalSize>40</fontNormalSize>
+  <fontLarge>font/CalligrapherRegular.ttf</fontLarge>
+  <fontLargeSize>30</fontLargeSize>
+  <fontLarger>font/CalligrapherRegular.ttf</fontLarger>
+  <fontLargerSize>55</fontLargerSize>
+</Font>
+<maxStringSize>50</maxStringSize>
+
+
+<unitLength>64</unitLength>
+
+
+<menuFrame>
+  <menuFrameTransparency>true</menuFrameTransparency>
+  <menuFrameFile>images/menu.png</menuFrameFile>
+  <menuFrameNumberOfFrames>1</menuFrameNumberOfFrames>
+  <menuFrameNumberOfFramesY>1</menuFrameNumberOfFramesY>
+  <menuFrameSrcX>0</menuFrameSrcX>
+  <menuFrameSrcY>0</menuFrameSrcY>
+  <menuFrameWidth>510</menuFrameWidth>
+  <menuFrameHeight>480</menuFrameHeight>
+</menuFrame>
+
+
+<enemyFinalFrame>
+  <enemyFinalTransparency>false</enemyFinalTransparency>
+  <enemyFinalFile>images/ContraEnemy2.png</enemyFinalFile>
+  <enemyFinalNumberOfFrames>1</enemyFinalNumberOfFrames>
+  <enemyFinalNumberOfFramesY>1</enemyFinalNumberOfFramesY>
+  <enemyFinalSrcX>523</enemyFinalSrcX>
+  <enemyFinalSrcY>1028</enemyFinalSrcY>
+  <enemyFinalWidth>60</enemyFinalWidth>
+  <enemyFinalHeight>60</enemyFinalHeight>
+  <enemyFinalTime>1</enemyFinalTime>
+  <enemyFinalLoc enemyFinalX="500" enemyFinalY="300"/>
+  <enemyFinalSpeed enemyFinalXspeed="250" enemyFinalYspeed="250"/>
+  <enemyFinalMaxSpeed enemyFinalMaxXspeed="350" enemyFinalMaxYspeed="300"/>
+  <enemyFinalOffset  enemyFinal1OffsetX="45" enemyFinal1OffsetY="-10"/>
+</enemyFinalFrame>
+
+<background>
+  <backgroundTransparency>true</backgroundTransparency>
+  <backgroundFile>images/background.png</backgroundFile>
+  <backgroundNumberOfFrames>1</backgroundNumberOfFrames>
+  <backgroundNumberOfFramesY>1</backgroundNumberOfFramesY>
+  <backgroundSrcX>0</backgroundSrcX>
+  <backgroundSrcY>0</backgroundSrcY>
+  <backgroundWidth>7680</backgroundWidth>
+  <backgroundHeight>480</backgroundHeight>
+</background>
+
+
+<background1>
+  <background1Transparency>true</background1Transparency>
+  <background1File>images/background1.png</background1File>
+  <background1NumberOfFrames>1</background1NumberOfFrames>
+  <background1NumberOfFramesY>1</background1NumberOfFramesY>
+  <background1SrcX>0</background1SrcX>
+  <background1SrcY>0</background1SrcY>
+  <background1Width>1890</background1Width>
+  <background1Height>480</background1Height>
+</background1>
+
+
+<background2>
+  <background2Transparency>true</background2Transparency>
+  <background2File>images/background2.png</background2File>
+  <background2NumberOfFrames>1</background2NumberOfFrames>
+  <background2NumberOfFramesY>1</background2NumberOfFramesY>
+  <background2SrcX>0</background2SrcX>
+  <background2SrcY>0</background2SrcY>
+  <background2Width>1234</background2Width>
+  <background2Height>480</background2Height>
+</background2>
+
+<map>
+ <mapdata16 mapdata16Number="2" mapdata16Y0="429" mapdata16Y1="9999"/>
+ <mapdata17 mapdata17Number="3" mapdata17Y0="233.5" mapdata17Y1="429" mapdata17Y2="9999"/>
+ <mapdata18 mapdata18Number="3" mapdata18Y0="233.5" mapdata18Y1="429" mapdata18Y2="9999"/>
+ <mapdata19 mapdata19Number="3" mapdata19Y0="233.5" mapdata19Y1="429" mapdata19Y2="9999"/>
+ <mapdata20 mapdata20Number="3" mapdata20Y0="233.5" mapdata20Y1="429" mapdata20Y2="9999"/>
+ <mapdata21 mapdata21Number="4" mapdata21Y0="233.5" mapdata21Y1="298.5" mapdata21Y2="429" mapdata21Y3="9999"/>
+ <mapdata22 mapdata22Number="4" mapdata22Y0="233.5" mapdata22Y1="298.5" mapdata22Y2="429" mapdata22Y3="9999"/>
+ <mapdata23 mapdata23Number="4" mapdata23Y0="233.5" mapdata23Y1="298.5" mapdata23Y2="429" mapdata23Y3="9999"/>
+ <mapdata24 mapdata24Number="4" mapdata24Y0="233.5" mapdata24Y1="360" mapdata24Y2="429" mapdata24Y3="9999"/>
+ <mapdata25 mapdata25Number="3" mapdata25Y0="233.5" mapdata25Y1="425" mapdata25Y2="9999" mapdata25Y3="9999"/>
+ <mapdata26 mapdata26Number="3" mapdata26Y0="233.5" mapdata26Y1="425" mapdata26Y2="9999" mapdata26Y3="9999"/>
+ <mapdata27 mapdata27Number="4" mapdata27Y0="233.5" mapdata27Y1="360" mapdata27Y2="429" mapdata27Y3="9999"/>
+ <mapdata28 mapdata28Number="3" mapdata28Y0="233.5" mapdata28Y1="429" mapdata28Y2="9999"/>
+ <mapdata29 mapdata29Number="4" mapdata29Y0="233.5" mapdata29Y1="298.5" mapdata29Y2="429" mapdata29Y3="9999"/>
+ <mapdata30 mapdata30Number="4" mapdata30Y0="233.5" mapdata30Y1="298.5" mapdata30Y2="429" mapdata30Y3="9999"/>
+ <mapdata31 mapdata31Number="3" mapdata31Y0="233.5" mapdata31Y1="429" mapdata31Y2="9999"/>
+ <mapdata32 mapdata32Number="3" mapdata32Y0="233.5" mapdata32Y1="429" mapdata32Y2="9999"/>
+ <mapdata33 mapdata33Number="3" mapdata33Y0="233.5" mapdata33Y1="429" mapdata33Y2="9999"/>
+ <mapdata34 mapdata34Number="3" mapdata34Y0="233.5" mapdata34Y1="429" mapdata34Y2="9999"/>
+ <mapdata35 mapdata35Number="2" mapdata35Y0="233.5" mapdata35Y1="425" mapdata35Y2="429" mapdata35Y3="9999"/>
+ <mapdata36 mapdata36Number="3" mapdata36Y0="233.5" mapdata36Y1="328" mapdata36Y2="425" mapdata36Y3="429" mapdata36Y4="9999"/>
+ <mapdata37 mapdata37Number="4" mapdata37Y0="233.5" mapdata37Y1="328" mapdata37Y2="429" mapdata37Y3="9999"/>
+ <mapdata38 mapdata38Number="4" mapdata38Y0="233.5" mapdata38Y1="328" mapdata38Y2="429" mapdata38Y3="9999"/>
+ <mapdata39 mapdata39Number="3" mapdata39Y0="233.5" mapdata39Y1="429" mapdata39Y2="9999"/>
+ <mapdata40 mapdata40Number="3" mapdata40Y0="233.5" mapdata40Y1="429" mapdata40Y2="9999"/>
+ <mapdata41 mapdata41Number="3" mapdata41Y0="233.5" mapdata41Y1="429" mapdata41Y2="9999"/>
+ <mapdata42 mapdata42Number="3" mapdata42Y0="233.5" mapdata42Y1="429" mapdata42Y2="9999"/>
+ <mapdata43 mapdata43Number="3" mapdata43Y0="233.5" mapdata43Y1="429" mapdata43Y2="9999"/>
+ <mapdata44 mapdata44Number="3" mapdata44Y0="233.5" mapdata44Y1="429" mapdata44Y2="9999"/>
+ <mapdata45 mapdata45Number="3" mapdata45Y0="233.5" mapdata45Y1="429" mapdata45Y2="9999"/>
+ <mapdata46 mapdata46Number="3" mapdata46Y0="233.5" mapdata46Y1="429" mapdata46Y2="9999"/>
+ <mapdata47 mapdata47Number="3" mapdata47Y0="233.5" mapdata47Y1="429" mapdata47Y2="9999"/>
+ <mapdata48 mapdata48Number="3" mapdata48Y0="233.5" mapdata48Y1="429" mapdata48Y2="9999"/>
+ <mapdata49 mapdata49Number="3" mapdata49Y0="233.5" mapdata49Y1="429" mapdata49Y2="9999"/>
+ <mapdata50 mapdata50Number="3" mapdata50Y0="233.5" mapdata50Y1="429" mapdata50Y2="9999"/>
+ <mapdata51 mapdata51Number="3" mapdata51Y0="233.5" mapdata51Y1="429" mapdata51Y2="9999"/>
+ <mapdata52 mapdata52Number="3" mapdata52Y0="233.5" mapdata52Y1="429" mapdata52Y2="9999"/>
+ <mapdata53 mapdata53Number="3" mapdata53Y0="233.5" mapdata53Y1="429" mapdata53Y2="9999"/>
+ <mapdata54 mapdata54Number="3" mapdata54Y0="233.5" mapdata54Y1="429" mapdata54Y2="9999"/>
+ <mapdata55 mapdata55Number="3" mapdata55Y0="233.5" mapdata55Y1="429" mapdata55Y2="9999"/>
+ <mapdata56 mapdata56Number="3" mapdata56Y0="233.5" mapdata56Y1="429" mapdata56Y2="9999"/>
+ <mapdata57 mapdata57Number="3" mapdata57Y0="233.5" mapdata57Y1="429" mapdata57Y2="9999"/>
+ <mapdata58 mapdata58Number="3" mapdata58Y0="233.5" mapdata58Y1="429" mapdata58Y2="9999"/>
+ <mapdata59 mapdata59Number="4" mapdata59Y0="168" mapdata59Y1="233.5" mapdata59Y2="429" mapdata59Y3="9999"/>
+ <mapdata60 mapdata60Number="3" mapdata60Y0="168" mapdata60Y1="233.5" mapdata60Y2="425" mapdata60Y3="429" mapdata60Y4="9999"/>
+ <mapdata61 mapdata61Number="2" mapdata61Y0="168" mapdata61Y1="425" mapdata61Y2="429" mapdata61Y3="9999"/>
+ <mapdata62 mapdata62Number="2" mapdata62Y0="168" mapdata62Y1="425" mapdata62Y2="429" mapdata62Y3="9999"/>
+ <mapdata63 mapdata63Number="4" mapdata63Y0="168" mapdata63Y1="328" mapdata63Y2="429" mapdata63Y3="9999"/>
+ <mapdata64 mapdata64Number="4" mapdata64Y0="168" mapdata64Y1="328" mapdata64Y2="429" mapdata64Y3="9999"/>
+ <mapdata65 mapdata65Number="3" mapdata65Y0="168" mapdata65Y1="429" mapdata65Y2="9999"/>
+ <mapdata66 mapdata66Number="4" mapdata66Y0="168" mapdata66Y1="296" mapdata66Y2="429" mapdata66Y3="9999"/>
+ <mapdata67 mapdata67Number="4" mapdata67Y0="168" mapdata67Y1="296" mapdata67Y2="429" mapdata67Y3="9999"/>
+ <mapdata68 mapdata68Number="4" mapdata68Y0="168" mapdata68Y1="296" mapdata68Y2="429" mapdata68Y3="9999"/>
+ <mapdata69 mapdata69Number="4" mapdata69Y0="168" mapdata69Y1="296" mapdata69Y2="429" mapdata69Y3="9999"/>
+ <mapdata70 mapdata70Number="3" mapdata70Y0="168" mapdata70Y1="296" mapdata70Y2="425" mapdata70Y3="429" mapdata70Y4="9999"/>
+ <mapdata71 mapdata71Number="3" mapdata71Y0="168" mapdata71Y1="296" mapdata71Y2="425" mapdata71Y3="429" mapdata71Y4="9999"/>
+ <mapdata72 mapdata72Number="4" mapdata72Y0="168" mapdata72Y1="296" mapdata72Y2="425" mapdata72Y3="9999"/>
+ <mapdata73 mapdata73Number="3" mapdata73Y0="168" mapdata73Y1="425" mapdata73Y2="9999"/>
+ <mapdata74 mapdata74Number="4" mapdata74Y0="168" mapdata74Y1="233.5" mapdata74Y2="425" mapdata74Y3="9999"/>
+ <mapdata75 mapdata75Number="3" mapdata75Y0="233.5" mapdata75Y1="425" mapdata75Y2="9999"/>
+ <mapdata76 mapdata76Number="3" mapdata76Y0="233.5" mapdata76Y1="360" mapdata76Y2="9999"/>
+ <mapdata77 mapdata77Number="3" mapdata77Y0="233.5" mapdata77Y1="360" mapdata77Y2="9999"/>
+ <mapdata78 mapdata78Number="2" mapdata78Y0="233.5" mapdata78Y1="9999"/>
+ <mapdata79 mapdata79Number="3" mapdata79Y0="233.5" mapdata79Y1="360" mapdata79Y2="9999"/>
+ <mapdata80 mapdata80Number="4" mapdata80Y0="168" mapdata80Y1="233.5" mapdata80Y2="360" mapdata80Y3="9999"/>
+ <mapdata81 mapdata81Number="2" mapdata81Y0="168" mapdata81Y1="9999"/>
+ <mapdata82 mapdata82Number="3" mapdata82Y0="168" mapdata82Y1="328" mapdata82Y2="9999"/>
+ <mapdata83 mapdata83Number="2" mapdata83Y0="168" mapdata83Y1="9999"/>
+ <mapdata84 mapdata84Number="3" mapdata84Y0="168" mapdata84Y1="296" mapdata84Y2="9999"/>
+ <mapdata85 mapdata85Number="2" mapdata85Y0="296" mapdata85Y1="9999"/>
+ <mapdata86 mapdata86Number="3" mapdata86Y0="232" mapdata86Y1="296" mapdata86Y2="9999"/>
+ <mapdata87 mapdata87Number="3" mapdata87Y0="232" mapdata87Y1="296" mapdata87Y2="9999"/>
+ <mapdata88 mapdata88Number="1" mapdata88Y0="9999"/>
+ <mapdata89 mapdata89Number="3" mapdata89Y0="296" mapdata89Y1="425" mapdata89Y2="9999"/>
+ <mapdata90 mapdata90Number="3" mapdata90Y0="296" mapdata90Y1="360" mapdata90Y2="9999"/>
+ <mapdata91 mapdata91Number="2" mapdata91Y0="360" mapdata91Y1="9999"/>
+ <mapdata92 mapdata92Number="2" mapdata92Y0="360" mapdata92Y1="9999"/>
+ <mapdata93 mapdata93Number="2" mapdata93Y0="233.5" mapdata93Y1="9999"/>
+ <mapdata94 mapdata94Number="4" mapdata94Y0="168" mapdata94Y1="233.5" mapdata94Y2="425" mapdata94Y3="9999"/>
+ <mapdata95 mapdata95Number="3" mapdata95Y0="168" mapdata95Y1="328" mapdata95Y2="9999"/>
+ <mapdata96 mapdata96Number="1" mapdata96Y0="9999"/>
+ <mapdata97 mapdata97Number="2" mapdata97Y0="233.5" mapdata97Y1="9999"/>
+ <mapdata98 mapdata98Number="3" mapdata98Y0="233.5" mapdata98Y1="296" mapdata98Y2="9999"/>
+ <mapdata99 mapdata99Number="2" mapdata99Y0="296" mapdata99Y1="9999"/>
+ <mapdata100 mapdata100Number="2" mapdata100Y0="296" mapdata100Y1="9999"/>
+ <mapdata101 mapdata101Number="3" mapdata101Y0="296" mapdata101Y1="425" mapdata101Y2="9999"/>
+ <mapdata102 mapdata102Number="3" mapdata102Y0="296" mapdata102Y1="425" mapdata102Y2="9999"/>
+ <mapdata103 mapdata103Number="2" mapdata103Y0="425" mapdata103Y1="9999"/>
+ <mapdata104 mapdata104Number="1" mapdata104Y0="9999"/>
+ <mapdata105 mapdata105Number="2" mapdata105Y0="360" mapdata105Y1="9999"/>
+ <mapdata106 mapdata106Number="2" mapdata106Y0="360" mapdata106Y1="9999"/>
+ <mapdata107 mapdata107Number="1" mapdata107Y0="9999"/>
+ <mapdata108 mapdata108Number="2" mapdata108Y0="296" mapdata108Y1="9999"/>
+ <mapdata109 mapdata109Number="2" mapdata109Y0="296" mapdata109Y1="9999"/>
+ <mapdata110 mapdata110Number="3" mapdata110Y0="233.5" mapdata110Y1="425" mapdata110Y2="9999"/>
+ <mapdata111 mapdata111Number="4" mapdata111Y0="233.5" mapdata111Y1="328" mapdata111Y2="425" mapdata111Y3="9999"/>
+ <mapdata112 mapdata112Number="4" mapdata112Y0="233.5" mapdata112Y1="328" mapdata112Y2="425" mapdata112Y3="9999"/>
+ <mapdata113 mapdata113Number="4" mapdata113Y0="233.5" mapdata113Y1="328" mapdata113Y2="425" mapdata113Y3="9999"/>
+ <mapdata114 mapdata114Number="3" mapdata114Y0="296" mapdata114Y1="425" mapdata114Y2="9999"/>
+ <mapdata115 mapdata115Number="3" mapdata115Y0="360" mapdata115Y1="425" mapdata115Y2="9999"/>
+ <mapdata116 mapdata116Number="2" mapdata116Y0="425" mapdata116Y1="9999"/>
+ <mapdata117 mapdata117Number="2" mapdata117Y0="425" mapdata117Y1="9999"/>
+</map>
+
+
+<redorb>
+  <redorbFile>images/bullet.png</redorbFile>
+  <redorbTransparency>true</redorbTransparency>
+  <orbChunkSize>10</orbChunkSize>
+  <redorbChunkSize>10</redorbChunkSize>
+  <redorbChunkSpeed redorbChunkXspeed="250" redorbChunkYspeed="250"/>
+  <redorbChunkMaxSpeed redorbChunkMaxXspeed="350" redorbChunkMaxYspeed="300"/>
+  <redorbChunkDistance>5</redorbChunkDistance>
+  <redorbTime>1</redorbTime>
+  <redorbNumberOfBullets>1</redorbNumberOfBullets>
+  <redorbNumberOfFrames>1</redorbNumberOfFrames>
+  <redorbNumberOfFramesY>1</redorbNumberOfFramesY>
+  <redorbSrcX>0</redorbSrcX>
+  <redorbSrcY>0</redorbSrcY>
+  <redorbWidth>5</redorbWidth>
+  <redorbHeight>5</redorbHeight>
+  <redorbLoc redorbX="10" redorbY="10"/>
+  <redorbSpeed redorbXspeed="250" redorbYspeed="250"/>
+  <redorbMaxSpeed redorbMaxXspeed="350" redorbMaxYspeed="300"/>
+  <redorb1Loc redorb1X="10" redorb1Y="10"/>
+  <redorb1Speed redorb1Xspeed="250" redorb1Yspeed="250"/>
+  <redorb1MaxSpeed redorb1MaxXspeed="350" redorb1MaxYspeed="300"/>
+</redorb>
+
+
+<name>
+  <nameFile>images/name.png</nameFile>
+  <nameTransparency>true</nameTransparency>
+  <nameDistance>440</nameDistance>
+  <nameNumberOfFrames>1</nameNumberOfFrames>
+  <nameNumberOfFramesY>1</nameNumberOfFramesY>
+  <nameSrcX>0</nameSrcX>
+  <nameSrcY>0</nameSrcY>
+  <nameWidth>386</nameWidth>
+  <nameHeight>163</nameHeight>
+  <nameLoc nameX="500" nameY="300"/>
+  <nameSpeed nameXspeed="-80" nameYspeed="250"/>
+  <nameMaxSpeed nameMaxXspeed="350" nameMaxYspeed="300"/>
+</name>
+
+
+
+<flame>
+  <flameFile>images/ContraEnemy2.png</flameFile>
+  <flameTransparency>true</flameTransparency>
+  <flameDistance>256</flameDistance>
+  <flameNumberOfFrames>1</flameNumberOfFrames>
+  <flameNumberOfFramesY>1</flameNumberOfFramesY>
+  <flameSrcX>503</flameSrcX>
+  <flameSrcY>533</flameSrcY>
+  <flameWidth>34</flameWidth>
+  <flameHeight>34</flameHeight>
+  <flameNumber>4</flameNumber>
+  <flame1Loc flame1X="2655" flame1Y="233.5"/>
+  <flame1Speed flame1Xspeed="-70" flame1Yspeed="250"/>
+  <flame1MaxSpeed flame1MaxXspeed="350" flame1MaxYspeed="300"/>
+  <flame2Loc flame2X="2689" flame2Y="233.5"/>
+  <flame2Speed flame2Xspeed="70" flame2Yspeed="250"/>
+  <flame2MaxSpeed flame2MaxXspeed="350" flame2MaxYspeed="300"/>
+  <flame3Loc flame3X="3265" flame3Y="233.5"/>
+  <flame3Speed flame3Xspeed="-70" flame3Yspeed="250"/>
+  <flame3MaxSpeed flame3MaxXspeed="350" flame3MaxYspeed="300"/>
+  <flame4Loc flame4X="3265" flame4Y="233.5"/>
+  <flame4Speed flame4Xspeed="70" flame4Yspeed="250"/>
+  <flame4MaxSpeed flame4MaxXspeed="350" flame4MaxYspeed="300"/>
+</flame>
+
+<enemyFinal1>
+  <enemyFinal1File>images/ContraEnemyFinal.png</enemyFinal1File>
+  <enemyFinal1Transparency>true</enemyFinal1Transparency>
+  <enemyFinal1Distance>256</enemyFinal1Distance>
+  <enemyFinal1ChunkDistance>500</enemyFinal1ChunkDistance>
+  <enemyFinal1Strength>1</enemyFinal1Strength>
+  <enemyFinal1ChunkSize>90000</enemyFinal1ChunkSize>
+  <enemyFinal1ChunkNumberOfFrames>10</enemyFinal1ChunkNumberOfFrames>
+  <enemyFinal1ChunkNumberOfFramesY>10</enemyFinal1ChunkNumberOfFramesY>
+  <enemyFinal1ChunkSrcX>385</enemyFinal1ChunkSrcX>
+  <enemyFinal1ChunkSrcY>13</enemyFinal1ChunkSrcY>
+  <enemyFinal1ChunkWidth>224</enemyFinal1ChunkWidth>
+  <enemyFinal1ChunkHeight>385</enemyFinal1ChunkHeight>
+  <enemyFinal1ChunkSpeed enemyFinal1ChunkXspeed="250" enemyFinal1ChunkYspeed="250"/>
+  <enemyFinal1ChunkMaxSpeed enemyFinal1ChunkMaxXspeed="350" enemyFinal1ChunkMaxYspeed="300"/>
+  <enemyFinal1RNormalNumberOfFrames>3</enemyFinal1RNormalNumberOfFrames>
+  <enemyFinal1RNormalNumberOfFramesY>1</enemyFinal1RNormalNumberOfFramesY>
+  <enemyFinal1RNormalSrcX>437</enemyFinal1RNormalSrcX>
+  <enemyFinal1RNormalSrcY>395</enemyFinal1RNormalSrcY>
+  <enemyFinal1RNormalWidth>169</enemyFinal1RNormalWidth>
+  <enemyFinal1RNormalHeight>66</enemyFinal1RNormalHeight>
+  <enemyFinalNumberOfBullets>100000</enemyFinalNumberOfBullets>
+  <enemyFinal1FrameTransparency>true</enemyFinal1FrameTransparency>
+  <enemyFinal1FrameFile>images/ContraEnemyFinal.png</enemyFinal1FrameFile>
+  <enemyFinal1FrameNumberOfFrames>1</enemyFinal1FrameNumberOfFrames>
+  <enemyFinal1FrameNumberOfFramesY>1</enemyFinal1FrameNumberOfFramesY>
+  <enemyFinal1FrameSrcX>385</enemyFinal1FrameSrcX>
+  <enemyFinal1FrameSrcY>13</enemyFinal1FrameSrcY>
+  <enemyFinal1FrameWidth>224</enemyFinal1FrameWidth>
+  <enemyFinal1FrameHeight>385</enemyFinal1FrameHeight>
+  <enemyFinal1Loc enemyFinal1X="7471" enemyFinal1Y="390"/>
+  <enemyFinal1Speed enemyFinal1Xspeed="70" enemyFinal1Yspeed="250"/>
+  <enemyFinal1MaxSpeed enemyFinal1MaxXspeed="350" enemyFinal1MaxYspeed="300"/>
+</enemyFinal1>
+
+<bigBulletL>
+  <bigBulletLFile>images/bigbullet.png</bigBulletLFile>
+  <bigBulletLTransparency>true</bigBulletLTransparency>
+  <orbChunkSize>10</orbChunkSize>
+  <bigBulletLChunkSize>10</bigBulletLChunkSize>
+  <bigBulletLChunkSpeed bigBulletLChunkXspeed="250" bigBulletLChunkYspeed="250"/>
+  <bigBulletLChunkMaxSpeed bigBulletLChunkMaxXspeed="350" bigBulletLChunkMaxYspeed="300"/>
+  <bigBulletLChunkDistance>5</bigBulletLChunkDistance>
+  <bigBulletLTime>1</bigBulletLTime>
+  <bigBulletLNumberOfBullets>1</bigBulletLNumberOfBullets>
+  <bigBulletLNumberOfFrames>1</bigBulletLNumberOfFrames>
+  <bigBulletLNumberOfFramesY>1</bigBulletLNumberOfFramesY>
+  <bigBulletLSrcX>4</bigBulletLSrcX>
+  <bigBulletLSrcY>4</bigBulletLSrcY>
+  <bigBulletLWidth>34</bigBulletLWidth>
+  <bigBulletLHeight>32</bigBulletLHeight>
+  <bigBulletLLoc bigBulletLX="10" bigBulletLY="10"/>
+  <bigBulletLSpeed bigBulletLXspeed="50" bigBulletLYspeed="250"/>
+  <bigBulletLMaxSpeed bigBulletLMaxXspeed="350" bigBulletLMaxYspeed="300"/>
+</bigBulletL>
+
+<bigBulletR>
+  <bigBulletRFile>images/bigbullet.png</bigBulletRFile>
+  <bigBulletRTransparency>true</bigBulletRTransparency>
+  <orbChunkSize>10</orbChunkSize>
+  <bigBulletRChunkSize>10</bigBulletRChunkSize>
+  <bigBulletRChunkSpeed bigBulletRChunkXspeed="250" bigBulletRChunkYspeed="250"/>
+  <bigBulletRChunkMaxSpeed bigBulletRChunkMaxXspeed="350" bigBulletRChunkMaxYspeed="300"/>
+  <bigBulletRChunkDistance>5</bigBulletRChunkDistance>
+  <bigBulletRTime>1</bigBulletRTime>
+  <bigBulletRNumberOfBullets>1</bigBulletRNumberOfBullets>
+  <bigBulletRNumberOfFrames>1</bigBulletRNumberOfFrames>
+  <bigBulletRNumberOfFramesY>1</bigBulletRNumberOfFramesY>
+  <bigBulletRSrcX>80</bigBulletRSrcX>
+  <bigBulletRSrcY>4</bigBulletRSrcY>
+  <bigBulletRWidth>34</bigBulletRWidth>
+  <bigBulletRHeight>32</bigBulletRHeight>
+  <bigBulletRLoc bigBulletRX="10" bigBulletRY="10"/>
+  <bigBulletRSpeed bigBulletRXspeed="50" bigBulletRYspeed="250"/>
+  <bigBulletRMaxSpeed bigBulletRMaxXspeed="350" bigBulletRMaxYspeed="300"/>
+</bigBulletR>
+
+
+<bbullet>
+  <bbulletChunkDistance>200</bbulletChunkDistance>
+  <bbulletTransparency>true</bbulletTransparency>
+  <bbulletStrength>5</bbulletStrength>
+  <bbulletFile>images/bigbullet.png</bbulletFile>
+  <bbulletDistance>300</bbulletDistance>
+  <bbulletChunkSize>10</bbulletChunkSize>
+  <bbulletChunkNumberOfFrames>10</bbulletChunkNumberOfFrames>
+  <bbulletChunkNumberOfFramesY>10</bbulletChunkNumberOfFramesY>
+  <bbulletChunkSrcX>42</bbulletChunkSrcX>
+  <bbulletChunkSrcY>3</bbulletChunkSrcY>
+  <bbulletChunkWidth>34</bbulletChunkWidth>
+  <bbulletChunkHeight>65</bbulletChunkHeight>
+  <bbulletChunkSpeed bbulletChunkXspeed="250" bbulletChunkYspeed="250"/>
+  <bbulletChunkMaxSpeed bbulletChunkMaxXspeed="350" bbulletChunkMaxYspeed="300"/>
+  <bbulletNormalNumberOfFrames>1</bbulletNormalNumberOfFrames>
+  <bbulletNormalNumberOfFramesY>1</bbulletNormalNumberOfFramesY>
+  <bbulletNormalSrcX>42</bbulletNormalSrcX>
+  <bbulletNormalSrcY>3</bbulletNormalSrcY>
+  <bbulletNormalWidth>34</bbulletNormalWidth>
+  <bbulletNormalHeight>65</bbulletNormalHeight>
+  <bbulletBulletRNormal  bbulletBulletRNormalX="34" bbulletBulletRNormalY="-33"/>
+  <bbulletBulletLNormal  bbulletBulletLNormalX="0" bbulletBulletLNormalY="-33"/>
+  <bbulletNumber>3</bbulletNumber>
+  <bbullet1Loc bbullet1X="4246" bbullet1Y="294"/>
+  <bbullet1Speed bbullet1Xspeed="250" bbullet1Yspeed="250"/>
+  <bbullet1MaxSpeed bbullet1MaxXspeed="350" bbullet1MaxYspeed="300"/>
+  <bbullet2Loc bbullet2X="5000" bbullet2Y="230"/>
+  <bbullet2Speed bbullet2Xspeed="250" bbullet2Yspeed="250"/>
+  <bbullet2MaxSpeed bbullet2MaxXspeed="350" bbullet2MaxYspeed="300"/>
+  <bbullet3Loc bbullet3X="6550" bbullet3Y="295"/>
+  <bbullet3Speed bbullet3Xspeed="250" bbullet3Yspeed="250"/>
+  <bbullet3MaxSpeed bbullet3MaxXspeed="350" bbullet3MaxYspeed="300"/>
+  <bbullet4Loc bbullet4X="1240" bbullet4Y="250"/>
+  <bbullet4Speed bbullet4Xspeed="250" bbullet4Yspeed="250"/>
+  <bbullet4MaxSpeed bbullet4MaxXspeed="350" bbullet4MaxYspeed="300"/>
+  <bbullet5Loc bbullet5X="1240" bbullet5Y="250"/>
+  <bbullet5Speed bbullet5Xspeed="250" bbullet5Yspeed="250"/>
+  <bbullet5MaxSpeed bbullet5MaxXspeed="350" bbullet5MaxYspeed="300"/>
+  <bbullet6Loc bbullet6X="1240" bbullet6Y="250"/>
+  <bbullet6Speed bbullet6Xspeed="250" bbullet6Yspeed="250"/>
+  <bbullet6MaxSpeed bbullet6MaxXspeed="350" bbullet6MaxYspeed="300"/>
+  <bbullet7Loc bbullet7X="1240" bbullet7Y="250"/>
+  <bbullet7Speed bbullet7Xspeed="250" bbullet7Yspeed="250"/>
+  <bbullet7MaxSpeed bbullet7MaxXspeed="350" bbullet7MaxYspeed="300"/>
+  <bbullet8Loc bbullet8X="1240" bbullet8Y="250"/>
+  <bbullet8Speed bbullet8Xspeed="250" bbullet8Yspeed="250"/>
+  <bbullet8MaxSpeed bbullet8MaxXspeed="350" bbullet8MaxYspeed="300"/>
+  <bbullet9Loc bbullet9X="1240" bbullet9Y="250"/>
+  <bbullet9Speed bbullet9Xspeed="250" bbullet9Yspeed="250"/>
+  <bbullet9MaxSpeed bbullet9MaxXspeed="350" bbullet9MaxYspeed="300"/>
+  <bbullet10Loc bbullet10X="1240" bbullet10Y="250"/>
+  <bbullet10Speed bbullet10Xspeed="250" bbullet10Yspeed="250"/>
+  <bbullet10MaxSpeed bbullet10MaxXspeed="350" bbullet10MaxYspeed="300"/>
+</bbullet>
+
+
+
+<boxenemy>
+  <boxenemyTransparency>true</boxenemyTransparency>
+  <boxenemyStrength>5</boxenemyStrength>
+  <boxenemyFile>images/ContraEnemy1.png</boxenemyFile>
+  <boxenemyDistance>300</boxenemyDistance>
+  <boxenemyChunkSize>10</boxenemyChunkSize>
+  <boxenemyChunkDistance>100</boxenemyChunkDistance>
+  <boxenemyChunkNumberOfFrames>10</boxenemyChunkNumberOfFrames>
+  <boxenemyChunkNumberOfFramesY>10</boxenemyChunkNumberOfFramesY>
+  <boxenemyChunkSrcX>145</boxenemyChunkSrcX>
+  <boxenemyChunkSrcY>211</boxenemyChunkSrcY>
+  <boxenemyChunkWidth>66</boxenemyChunkWidth>
+  <boxenemyChunkHeight>66</boxenemyChunkHeight>
+  <boxenemyChunkSpeed boxenemyChunkXspeed="250" boxenemyChunkYspeed="250"/>
+  <boxenemyChunkMaxSpeed boxenemyChunkMaxXspeed="350" boxenemyChunkMaxYspeed="300"/>
+  <boxenemyRNormalNumberOfFrames>1</boxenemyRNormalNumberOfFrames>
+  <boxenemyRNormalNumberOfFramesY>1</boxenemyRNormalNumberOfFramesY>
+  <boxenemyRNormalSrcX>145</boxenemyRNormalSrcX>
+  <boxenemyRNormalSrcY>211</boxenemyRNormalSrcY>
+  <boxenemyRNormalWidth>66</boxenemyRNormalWidth>
+  <boxenemyRNormalHeight>66</boxenemyRNormalHeight>
+  <boxenemyBulletNormal  boxenemyBulletRNormalX="60" boxenemyBulletRNormalY="-31"/>
+  <boxenemyRUp60NumberOfFrames>1</boxenemyRUp60NumberOfFrames>
+  <boxenemyRUp60NumberOfFramesY>1</boxenemyRUp60NumberOfFramesY>
+  <boxenemyRUp60SrcX>145</boxenemyRUp60SrcX>
+  <boxenemyRUp60SrcY>143</boxenemyRUp60SrcY>
+  <boxenemyRUp60Width>66</boxenemyRUp60Width>
+  <boxenemyRUp60Height>66</boxenemyRUp60Height>
+  <boxenemyBulletRUp60  boxenemyBulletRUp60X="60" boxenemyBulletRUp60Y="-47"/>
+  <boxenemyRUp30NumberOfFrames>1</boxenemyRUp30NumberOfFrames>
+  <boxenemyRUp30NumberOfFramesY>1</boxenemyRUp30NumberOfFramesY>
+  <boxenemyRUp30SrcX>145</boxenemyRUp30SrcX>
+  <boxenemyRUp30SrcY>75</boxenemyRUp30SrcY>
+  <boxenemyRUp30Width>66</boxenemyRUp30Width>
+  <boxenemyRUp30Height>66</boxenemyRUp30Height>
+  <boxenemyBulletRUp30  boxenemyBulletRUp30X="45" boxenemyBulletRUp30Y="-55"/>
+  <boxenemyUpNumberOfFrames>1</boxenemyUpNumberOfFrames>
+  <boxenemyUpNumberOfFramesY>1</boxenemyUpNumberOfFramesY>
+  <boxenemyUpSrcX>77</boxenemyUpSrcX>
+  <boxenemyUpSrcY>75</boxenemyUpSrcY>
+  <boxenemyUpWidth>66</boxenemyUpWidth>
+  <boxenemyUpHeight>66</boxenemyUpHeight>
+  <boxenemyBulletUp  boxenemyBulletUpX="31" boxenemyBulletUpY="-60"/>
+  <boxenemyLUp30NumberOfFrames>1</boxenemyLUp30NumberOfFrames>
+  <boxenemyLUp30NumberOfFramesY>1</boxenemyLUp30NumberOfFramesY>
+  <boxenemyLUp30SrcX>9</boxenemyLUp30SrcX>
+  <boxenemyLUp30SrcY>75</boxenemyLUp30SrcY>
+  <boxenemyLUp30Width>66</boxenemyLUp30Width>
+  <boxenemyLUp30Height>66</boxenemyLUp30Height>
+  <boxenemyBulletLUp30  boxenemyBulletLUp30X="15" boxenemyBulletLUp30Y="-55"/>
+  <boxenemyLUp60NumberOfFrames>1</boxenemyLUp60NumberOfFrames>
+  <boxenemyLUp60NumberOfFramesY>1</boxenemyLUp60NumberOfFramesY>
+  <boxenemyLUp60SrcX>9</boxenemyLUp60SrcX>
+  <boxenemyLUp60SrcY>143</boxenemyLUp60SrcY>
+  <boxenemyLUp60Width>66</boxenemyLUp60Width>
+  <boxenemyLUp60Height>66</boxenemyLUp60Height>
+  <boxenemyBulletLUp  boxenemyBulletLUp60X="6" boxenemyBulletLUp60Y="-45"/>
+  <boxenemyLNormalNumberOfFrames>1</boxenemyLNormalNumberOfFrames>
+  <boxenemyLNormalNumberOfFramesY>1</boxenemyLNormalNumberOfFramesY>
+  <boxenemyLNormalSrcX>9</boxenemyLNormalSrcX>
+  <boxenemyLNormalSrcY>211</boxenemyLNormalSrcY>
+  <boxenemyLNormalWidth>66</boxenemyLNormalWidth>
+  <boxenemyLNormalHeight>66</boxenemyLNormalHeight>
+  <boxenemyBulletLNormal  boxenemyBulletLNormalX="6" boxenemyBulletLNormalY="-31"/>
+  <boxenemyLDown60NumberOfFrames>1</boxenemyLDown60NumberOfFrames>
+  <boxenemyLDown60NumberOfFramesY>1</boxenemyLDown60NumberOfFramesY>
+  <boxenemyLDown60SrcX>9</boxenemyLDown60SrcX>
+  <boxenemyLDown60SrcY>279</boxenemyLDown60SrcY>
+  <boxenemyLDown60Width>66</boxenemyLDown60Width>
+  <boxenemyLDown60Height>66</boxenemyLDown60Height>
+  <boxenemyBulletLDown60  boxenemyBulletLDown60X="6" boxenemyBulletLDown60Y="-20"/>
+  <boxenemyLDown30NumberOfFrames>1</boxenemyLDown30NumberOfFrames>
+  <boxenemyLDown30NumberOfFramesY>1</boxenemyLDown30NumberOfFramesY>
+  <boxenemyLDown30SrcX>9</boxenemyLDown30SrcX>
+  <boxenemyLDown30SrcY>347</boxenemyLDown30SrcY>
+  <boxenemyLDown30Width>66</boxenemyLDown30Width>
+  <boxenemyLDown30Height>66</boxenemyLDown30Height>
+  <boxenemyBulletLDown  boxenemyBulletLDown30X="15" boxenemyBulletLDown30Y="-10"/>
+  <boxenemyDownNumberOfFrames>1</boxenemyDownNumberOfFrames>
+  <boxenemyDownNumberOfFramesY>1</boxenemyDownNumberOfFramesY>
+  <boxenemyDownSrcX>77</boxenemyDownSrcX>
+  <boxenemyDownSrcY>347</boxenemyDownSrcY>
+  <boxenemyDownWidth>66</boxenemyDownWidth>
+  <boxenemyDownHeight>66</boxenemyDownHeight>
+  <boxenemyBulletDown  boxenemyBulletDownX="31" boxenemyBulletDownY="-5"/>
+  <boxenemyRDown30NumberOfFrames>1</boxenemyRDown30NumberOfFrames>
+  <boxenemyRDown30NumberOfFramesY>1</boxenemyRDown30NumberOfFramesY>
+  <boxenemyRDown30SrcX>145</boxenemyRDown30SrcX>
+  <boxenemyRDown30SrcY>347</boxenemyRDown30SrcY>
+  <boxenemyRDown30Width>66</boxenemyRDown30Width>
+  <boxenemyRDown30Height>66</boxenemyRDown30Height>
+  <boxenemyBulletRDown30  boxenemyBulletRDown30X="45" boxenemyBulletRDown30Y="-10"/>
+  <boxenemyRDown60NumberOfFrames>1</boxenemyRDown60NumberOfFrames>
+  <boxenemyRDown60NumberOfFramesY>1</boxenemyRDown60NumberOfFramesY>
+  <boxenemyRDown60SrcX>145</boxenemyRDown60SrcX>
+  <boxenemyRDown60SrcY>279</boxenemyRDown60SrcY>
+  <boxenemyRDown60Width>66</boxenemyRDown60Width>
+  <boxenemyRDown60Height>66</boxenemyRDown60Height>
+  <boxenemyNumber>9</boxenemyNumber>
+  <boxenemyBulletRDown60  boxenemyBulletRDown60X="50" boxenemyBulletRDown60Y="-20"/>
+  <boxenemy1Loc boxenemy1X="1620" boxenemy1Y="330"/>
+  <boxenemy1Speed boxenemy1Xspeed="250" boxenemy1Yspeed="250"/>
+  <boxenemy1MaxSpeed boxenemy1MaxXspeed="350" boxenemy1MaxYspeed="300"/>
+  <boxenemy2Loc boxenemy2X="2050" boxenemy2Y="330"/>
+  <boxenemy2Speed boxenemy2Xspeed="250" boxenemy2Yspeed="250"/>
+  <boxenemy2MaxSpeed boxenemy2MaxXspeed="350" boxenemy2MaxYspeed="300"/>
+  <boxenemy3Loc boxenemy3X="2950" boxenemy3Y="325"/>
+  <boxenemy3Speed boxenemy3Xspeed="250" boxenemy3Yspeed="250"/>
+  <boxenemy3MaxSpeed boxenemy3MaxXspeed="350" boxenemy3MaxYspeed="300"/>
+  <boxenemy4Loc boxenemy4X="3590" boxenemy4Y="325"/>
+  <boxenemy4Speed boxenemy4Xspeed="250" boxenemy4Yspeed="250"/>
+  <boxenemy4MaxSpeed boxenemy4MaxXspeed="350" boxenemy4MaxYspeed="300"/>
+  <boxenemy5Loc boxenemy5X="4070" boxenemy5Y="322"/>
+  <boxenemy5Speed boxenemy5Xspeed="250" boxenemy5Yspeed="250"/>
+  <boxenemy5MaxSpeed boxenemy5MaxXspeed="350" boxenemy5MaxYspeed="300"/>
+  <boxenemy6Loc boxenemy6X="5255" boxenemy6Y="320"/>
+  <boxenemy6Speed boxenemy6Xspeed="250" boxenemy6Yspeed="250"/>
+  <boxenemy6MaxSpeed boxenemy6MaxXspeed="350" boxenemy6MaxYspeed="300"/>
+  <boxenemy7Loc boxenemy7X="5982" boxenemy7Y="300"/>
+  <boxenemy7Speed boxenemy7Xspeed="250" boxenemy7Yspeed="250"/>
+  <boxenemy7MaxSpeed boxenemy7MaxXspeed="350" boxenemy7MaxYspeed="300"/>
+  <boxenemy8Loc boxenemy8X="7080" boxenemy8Y="416"/>
+  <boxenemy8Speed boxenemy8Xspeed="250" boxenemy8Yspeed="250"/>
+  <boxenemy8MaxSpeed boxenemy8MaxXspeed="350" boxenemy8MaxYspeed="300"/>
+  <boxenemy9Loc boxenemy9X="7200" boxenemy9Y="416"/>
+  <boxenemy9Speed boxenemy9Xspeed="250" boxenemy9Yspeed="250"/>
+  <boxenemy9MaxSpeed boxenemy9MaxXspeed="350" boxenemy9MaxYspeed="300"/>
+  <boxenemy10Loc boxenemy10X="1240" boxenemy10Y="325"/>
+  <boxenemy10Speed boxenemy10Xspeed="250" boxenemy10Yspeed="250"/>
+  <boxenemy10MaxSpeed boxenemy10MaxXspeed="350" boxenemy10MaxYspeed="300"/>
+</boxenemy>
+
+
+<enemy>
+  <enemyChunkDistance>100</enemyChunkDistance>
+  <enemyTransparency>true</enemyTransparency>
+  <enemyFile>images/ContraSh3.png</enemyFile>
+  <enemyDistance>300</enemyDistance>
+  <enemyChunkSize>10</enemyChunkSize>
+  <enemyChunkNumberOfFrames>10</enemyChunkNumberOfFrames>
+  <enemyChunkNumberOfFramesY>10</enemyChunkNumberOfFramesY>
+  <enemyChunkSrcX>358</enemyChunkSrcX>
+  <enemyChunkSrcY>23</enemyChunkSrcY>
+  <enemyChunkWidth>105</enemyChunkWidth>
+  <enemyChunkHeight>63</enemyChunkHeight>
+  <enemyChunkSpeed enemyChunkXspeed="250" enemyChunkYspeed="250"/>
+  <enemyChunkMaxSpeed enemyChunkMaxXspeed="350" enemyChunkMaxYspeed="300"/>
+  <enemyRNormalNumberOfFrames>2</enemyRNormalNumberOfFrames>
+  <enemyRNormalNumberOfFramesY>1</enemyRNormalNumberOfFramesY>
+  <enemyRNormalSrcX>358</enemyRNormalSrcX>
+  <enemyRNormalSrcY>23</enemyRNormalSrcY>
+  <enemyRNormalWidth>105</enemyRNormalWidth>
+  <enemyRNormalHeight>63</enemyRNormalHeight>
+  <enemyBulletNormal  enemyBulletRNormalX="48" enemyBulletRNormalY="-52"/>
+  <enemyLNormalNumberOfFrames>2</enemyLNormalNumberOfFrames>
+  <enemyLNormalNumberOfFramesY>1</enemyLNormalNumberOfFramesY>
+  <enemyLNormalSrcX>150</enemyLNormalSrcX>
+  <enemyLNormalSrcY>23</enemyLNormalSrcY>
+  <enemyLNormalWidth>105</enemyLNormalWidth>
+  <enemyLNormalHeight>63</enemyLNormalHeight>
+  <enemyBulletNormal  enemyBulletLNormalX="2" enemyBulletLNormalY="-52"/>
+  <enemyRGunUpNumberOfFrames>2</enemyRGunUpNumberOfFrames>
+  <enemyRGunUpNumberOfFramesY>1</enemyRGunUpNumberOfFramesY>
+  <enemyRGunUpSrcX>463</enemyRGunUpSrcX>
+  <enemyRGunUpSrcY>7</enemyRGunUpSrcY>
+  <enemyRGunUpWidth>84</enemyRGunUpWidth>
+  <enemyRGunUpHeight>80</enemyRGunUpHeight>
+  <enemyBulletGunUp  enemyBulletRGunUpX="37" enemyBulletRGunUpY="-75"/>
+  <enemyLGunUpNumberOfFrames>2</enemyLGunUpNumberOfFrames>
+  <enemyLGunUpNumberOfFramesY>1</enemyLGunUpNumberOfFramesY>
+  <enemyLGunUpSrcX>68</enemyLGunUpSrcX>
+  <enemyLGunUpSrcY>7</enemyLGunUpSrcY>
+  <enemyLGunUpWidth>84</enemyLGunUpWidth>
+  <enemyLGunUpHeight>80</enemyLGunUpHeight>
+  <enemyBulletGunUp  enemyBulletLGunUpX="2" enemyBulletLGunUpY="-75"/>
+  <enemyRGunDownNumberOfFrames>1</enemyRGunDownNumberOfFrames>
+  <enemyRGunDownNumberOfFramesY>1</enemyRGunDownNumberOfFramesY>
+  <enemyRGunDownSrcX>307</enemyRGunDownSrcX>
+  <enemyRGunDownSrcY>23</enemyRGunDownSrcY>
+  <enemyRGunDownWidth>50</enemyRGunDownWidth>
+  <enemyRGunDownHeight>63</enemyRGunDownHeight>
+  <enemyBulletGunDown  enemyBulletRGunDownX="45" enemyBulletRGunDownY="-25"/>
+  <enemyLGunDownNumberOfFrames>1</enemyLGunDownNumberOfFrames>
+  <enemyLGunDownNumberOfFramesY>1</enemyLGunDownNumberOfFramesY>
+  <enemyLGunDownSrcX>255</enemyLGunDownSrcX>
+  <enemyLGunDownSrcY>23</enemyLGunDownSrcY>
+  <enemyLGunDownWidth>50</enemyLGunDownWidth>
+  <enemyLGunDownHeight>63</enemyLGunDownHeight>
+  <enemyBulletGunUp  enemyBulletLGunDownX="2" enemyBulletLGunDownY="-25"/>
+  <enemyNumber>9</enemyNumber>
+  <enemy1Loc enemy1X="1640" enemy1Y="425"/>
+  <enemy1Speed enemy1Xspeed="250" enemy1Yspeed="250"/>
+  <enemy1MaxSpeed enemy1MaxXspeed="350" enemy1MaxYspeed="300"/>
+  <enemy2Loc enemy2X="2280" enemy2Y="425"/>
+  <enemy2Speed enemy2Xspeed="250" enemy2Yspeed="250"/>
+  <enemy2MaxSpeed enemy2MaxXspeed="350" enemy2MaxYspeed="300"/>
+  <enemy3Loc enemy3X="1450" enemy3Y="233.5"/>
+  <enemy3Speed enemy3Xspeed="350" enemy3Yspeed="350"/>
+  <enemy3MaxSpeed enemy3MaxXspeed="350" enemy3MaxYspeed="300"/>
+  <enemy4Loc enemy4X="1890" enemy4Y="298.5"/>
+  <enemy4Speed enemy4Xspeed="450" enemy4Yspeed="450"/>
+  <enemy4MaxSpeed enemy4MaxXspeed="450" enemy4MaxYspeed="400"/>
+  <enemy5Loc enemy5X="2670" enemy5Y="233.5"/>
+  <enemy5Speed enemy5Xspeed="550" enemy5Yspeed="550"/>
+  <enemy5MaxSpeed enemy5MaxXspeed="550" enemy5MaxYspeed="500"/>
+  <enemy6Loc enemy6X="3250" enemy6Y="233.5"/>
+  <enemy6Speed enemy6Xspeed="650" enemy6Yspeed="650"/>
+  <enemy6MaxSpeed enemy6MaxXspeed="650" enemy6MaxYspeed="600"/>
+  <enemy7Loc enemy7X="2890" enemy7Y="233.5"/>
+  <enemy7Speed enemy7Xspeed="750" enemy7Yspeed="750"/>
+  <enemy7MaxSpeed enemy7MaxXspeed="750" enemy7MaxYspeed="700"/>
+  <enemy8Loc enemy8X="3020" enemy8Y="233.5"/>
+  <enemy8Speed enemy8Xspeed="850" enemy8Yspeed="850"/>
+  <enemy8MaxSpeed enemy8MaxXspeed="850" enemy8MaxYspeed="800"/>
+  <enemy9Loc enemy9X="3800" enemy9Y="168"/>
+  <enemy9Speed enemy9Xspeed="850" enemy9Yspeed="850"/>
+  <enemy9MaxSpeed enemy9MaxXspeed="850" enemy9MaxYspeed="800"/>
+</enemy>
+
+
+<player>
+  <playerFile>images/ContraShtry.png</playerFile>
+  <playerStrength>1000000</playerStrength>
+  <playerTransparency>true</playerTransparency>
+  <playerChunkSize>10</playerChunkSize>
+  <playerChunkDistance>100</playerChunkDistance>
+  <playerChunkNumberOfFrames>10</playerChunkNumberOfFrames>
+  <playerChunkNumberOfFramesY>10</playerChunkNumberOfFramesY>
+  <playerChunkSrcX>220</playerChunkSrcX>
+  <playerChunkSrcY>34</playerChunkSrcY>
+  <playerChunkWidth>50</playerChunkWidth>
+  <playerChunkHeight>70</playerChunkHeight>
+  <playerChunkSpeed playerChunkXspeed="250" playerChunkYspeed="250"/>
+  <playerChunkMaxSpeed playerChunkMaxXspeed="350" playerChunkMaxYspeed="300"/>
+  <boxenemyRNormalNumberOfFrames>1</boxenemyRNormalNumberOfFrames>
+  <playerSwimLoc>429</playerSwimLoc>
+  <playerRWalkNumberOfFrames>5</playerRWalkNumberOfFrames>
+  <playerRWalkNumberOfFramesY>1</playerRWalkNumberOfFramesY>
+  <playerRWalkSrcX>282</playerRWalkSrcX>
+  <playerRWalkSrcY>265</playerRWalkSrcY>
+  <playerRWalkWidth>245</playerRWalkWidth>
+  <playerRWalkHeight>70</playerRWalkHeight>
+  <playerBulletWalk playerBulletRWalkX="45" playerBulletRWalkY="-44" />
+  <playerRWalkSwimNumberOfFrames>1</playerRWalkSwimNumberOfFrames>
+  <playerRWalkSwimNumberOfFramesY>1</playerRWalkSwimNumberOfFramesY>
+  <playerRWalkSwimSrcX>299</playerRWalkSwimSrcX>
+  <playerRWalkSwimSrcY>435</playerRWalkSwimSrcY>
+  <playerRWalkSwimWidth>34</playerRWalkSwimWidth>
+  <playerRWalkSwimHeight>30</playerRWalkSwimHeight>
+  <playerBulletWalkSwim playerBulletRWalkSwimX="45" playerBulletRWalkSwimY="-5" />
+  <playerLWalkNumberOfFrames>5</playerLWalkNumberOfFrames>
+  <playerLWalkNumberOfFramesY>1</playerLWalkNumberOfFramesY>
+  <playerLWalkSrcX>33</playerLWalkSrcX>
+  <playerLWalkSrcY>265</playerLWalkSrcY>
+  <playerLWalkWidth>245</playerLWalkWidth>
+  <playerLWalkHeight>70</playerLWalkHeight>
+  <playerBulletWalk playerBulletLWalkX="1" playerBulletLWalkY="-44" />
+  <playerLWalkSwimNumberOfFrames>1</playerLWalkSwimNumberOfFrames>
+  <playerLWalkSwimNumberOfFramesY>1</playerLWalkSwimNumberOfFramesY>
+  <playerLWalkSwimSrcX>227</playerLWalkSwimSrcX>
+  <playerLWalkSwimSrcY>435</playerLWalkSwimSrcY>
+  <playerLWalkSwimWidth>34</playerLWalkSwimWidth>
+  <playerLWalkSwimHeight>30</playerLWalkSwimHeight>
+  <playerBulletWalkSwim playerBulletLWalkSwimX="0" playerBulletLWalkSwimY="-5" />
+  <playerRWalkFireNumberOfFrames>3</playerRWalkFireNumberOfFrames>
+  <playerRWalkFireNumberOfFramesY>1</playerRWalkFireNumberOfFramesY>
+  <playerRWalkFireSrcX>287</playerRWalkFireSrcX>
+  <playerRWalkFireSrcY>663</playerRWalkFireSrcY>
+  <playerRWalkFireWidth>150</playerRWalkFireWidth>
+  <playerRWalkFireHeight>70</playerRWalkFireHeight>
+  <playerBulletWalkFire playerBulletRWalkFireX="45" playerBulletRWalkFireY="-44" />
+  <playerRWalkFireSwimNumberOfFrames>1</playerRWalkFireSwimNumberOfFrames>
+  <playerRWalkFireSwimNumberOfFramesY>1</playerRWalkFireSwimNumberOfFramesY>
+  <playerRWalkFireSwimSrcX>341</playerRWalkFireSwimSrcX>
+  <playerRWalkFireSwimSrcY>433</playerRWalkFireSwimSrcY>
+  <playerRWalkFireSwimWidth>52</playerRWalkFireSwimWidth>
+  <playerRWalkFireSwimHeight>32</playerRWalkFireSwimHeight>
+  <playerBulletWalkFireSwim playerBulletRWalkFireSwimX="45" playerBulletRWalkFireSwimY="-5" />
+  <playerLWalkFireNumberOfFrames>3</playerLWalkFireNumberOfFrames>
+  <playerLWalkFireNumberOfFramesY>1</playerLWalkFireNumberOfFramesY>
+  <playerLWalkFireSrcX>115</playerLWalkFireSrcX>
+  <playerLWalkFireSrcY>663</playerLWalkFireSrcY>
+  <playerLWalkFireWidth>163</playerLWalkFireWidth>
+  <playerLWalkFireHeight>70</playerLWalkFireHeight>
+  <playerBulletWalkFire playerBulletLWalkFireX="1" playerBulletLWalkFireY="-44" />
+  <playerLWalkFireSwimNumberOfFrames>1</playerLWalkFireSwimNumberOfFrames>
+  <playerLWalkFireSwimNumberOfFramesY>1</playerLWalkFireSwimNumberOfFramesY>
+  <playerLWalkFireSwimSrcX>166</playerLWalkFireSwimSrcX>
+  <playerLWalkFireSwimSrcY>433</playerLWalkFireSwimSrcY>
+  <playerLWalkFireSwimWidth>52</playerLWalkFireSwimWidth>
+  <playerLWalkFireSwimHeight>32</playerLWalkFireSwimHeight>
+  <playerBulletWalkFireSwim playerBulletLWalkFireSwimX="0" playerBulletLWalkFireSwimY="-5" />
+  <playerJumpHeight>140</playerJumpHeight>
+  <playerRJumpNumberOfFrames>4</playerRJumpNumberOfFrames>
+  <playerRJumpNumberOfFramesY>1</playerRJumpNumberOfFramesY>
+  <playerRJumpSrcX>365</playerRJumpSrcX>
+  <playerRJumpSrcY>342</playerRJumpSrcY>
+  <playerRJumpWidth>170</playerRJumpWidth>
+  <playerRJumpHeight>40</playerRJumpHeight>
+  <playerBulletJump playerBulletRJumpX="0" playerBulletRJumpY="0" />
+  <playerLJumpNumberOfFrames>4</playerLJumpNumberOfFrames>
+  <playerLJumpNumberOfFramesY>1</playerLJumpNumberOfFramesY>
+  <playerLJumpSrcX>28</playerLJumpSrcX>
+  <playerLJumpSrcY>342</playerLJumpSrcY>
+  <playerLJumpWidth>166</playerLJumpWidth>
+  <playerLJumpHeight>40</playerLJumpHeight>
+  <playerBulletJump playerBulletLJumpX="0" playerBulletLJumpY="0" />
+  <playerRGunDownNumberOfFrames>3</playerRGunDownNumberOfFrames>
+  <playerRGunDownNumberOfFramesY>1</playerRGunDownNumberOfFramesY>
+  <playerRGunDownSrcX>290</playerRGunDownSrcX>
+  <playerRGunDownSrcY>186</playerRGunDownSrcY>
+  <playerRGunDownWidth>156</playerRGunDownWidth>
+  <playerRGunDownHeight>70</playerRGunDownHeight>
+  <playerBulletGunDown playerBulletRGunDownX="45" playerBulletRGunDownY="-25" />
+  <playerLGunDownNumberOfFrames>3</playerLGunDownNumberOfFrames>
+  <playerLGunDownNumberOfFramesY>1</playerLGunDownNumberOfFramesY>
+  <playerLGunDownSrcX>115</playerLGunDownSrcX>
+  <playerLGunDownSrcY>186</playerLGunDownSrcY>
+  <playerLGunDownWidth>156</playerLGunDownWidth>
+  <playerLGunDownHeight>70</playerLGunDownHeight>
+  <playerBulletGunDown playerBulletLGunDownX="5" playerBulletLGunDownY="-25" />
+  <playerRGunUpNumberOfFrames>3</playerRGunUpNumberOfFrames>
+  <playerRGunUpNumberOfFramesY>1</playerRGunUpNumberOfFramesY>
+  <playerRGunUpSrcX>284</playerRGunUpSrcX>
+  <playerRGunUpSrcY>110</playerRGunUpSrcY>
+  <playerRGunUpWidth>156</playerRGunUpWidth>
+  <playerRGunUpHeight>70</playerRGunUpHeight>
+  <playerBulletGunUp playerBulletRGunUpX="40" playerBulletRGunUpY="-63" />
+  <playerRGunUpSwimNumberOfFrames>1</playerRGunUpSwimNumberOfFrames>
+  <playerRGunUpSwimNumberOfFramesY>1</playerRGunUpSwimNumberOfFramesY>
+  <playerRGunUpSwimSrcX>289</playerRGunUpSwimSrcX>
+  <playerRGunUpSwimSrcY>591</playerRGunUpSwimSrcY>
+  <playerRGunUpSwimWidth>40</playerRGunUpSwimWidth>
+  <playerRGunUpSwimHeight>40</playerRGunUpSwimHeight>
+  <playerBulletGunUpSwim playerBulletRGunUpSwimX="40" playerBulletRGunUpSwimY="-40" />
+  <playerLGunUpNumberOfFrames>3</playerLGunUpNumberOfFrames>
+  <playerLGunUpNumberOfFramesY>1</playerLGunUpNumberOfFramesY>
+  <playerLGunUpSrcX>126</playerLGunUpSrcX>
+  <playerLGunUpSrcY>110</playerLGunUpSrcY>
+  <playerLGunUpWidth>148</playerLGunUpWidth>
+  <playerLGunUpHeight>70</playerLGunUpHeight>
+  <playerBulletGunUp playerBulletLGunUpX="10" playerBulletLGunUpY="-60" />
+  <playerLGunUpSwimNumberOfFrames>1</playerLGunUpSwimNumberOfFrames>
+  <playerLGunUpSwimNumberOfFramesY>1</playerLGunUpSwimNumberOfFramesY>
+  <playerLGunUpSwimSrcX>239</playerLGunUpSwimSrcX>
+  <playerLGunUpSwimSrcY>591</playerLGunUpSwimSrcY>
+  <playerLGunUpSwimWidth>40</playerLGunUpSwimWidth>
+  <playerLGunUpSwimHeight>40</playerLGunUpSwimHeight>
+  <playerBulletGunUpSwim playerBulletLGunUpSwimX="-4" playerBulletLGunUpSwimY="-40" />
+  <playerRDownNumberOfFrames>1</playerRDownNumberOfFrames>
+  <playerRDownNumberOfFramesY>1</playerRDownNumberOfFramesY>
+  <playerRDownSrcX>290</playerRDownSrcX>
+  <playerRDownSrcY>342</playerRDownSrcY>
+  <playerRDownWidth>68</playerRDownWidth>
+  <playerRDownHeight>40</playerRDownHeight>
+  <playerBulletDown playerBulletRDownX="66" playerBulletRDownY="-17" />
+  <playerLDownNumberOfFrames>1</playerLDownNumberOfFrames>
+  <playerLDownNumberOfFramesY>1</playerLDownNumberOfFramesY>
+  <playerLDownSrcX>201</playerLDownSrcX>
+  <playerLDownSrcY>342</playerLDownSrcY>
+  <playerLDownWidth>68</playerLDownWidth>
+  <playerLDownHeight>40</playerLDownHeight>
+  <playerBulletDown playerBulletLDownX="0" playerBulletLDownY="-17" />
+  <playerDownSwimNumberOfFrames>1</playerDownSwimNumberOfFrames>
+  <playerDownSwimNumberOfFramesY>1</playerDownSwimNumberOfFramesY>
+  <playerDownSwimSrcX>263</playerDownSwimSrcX>
+  <playerDownSwimSrcY>451</playerDownSwimSrcY>
+  <playerDownSwimWidth>34</playerDownSwimWidth>
+  <playerDownSwimHeight>14</playerDownSwimHeight>
+  <playerBulletDown playerBulletDownSwimX="66" playerBulletDownSwimY="-17" />
+  <playerRUpNumberOfFrames>1</playerRUpNumberOfFrames>
+  <playerRUpNumberOfFramesY>1</playerRUpNumberOfFramesY>
+  <playerRUpSrcX>405</playerRUpSrcX>
+  <playerRUpSrcY>14</playerRUpSrcY>
+  <playerRUpWidth>30</playerRUpWidth>
+  <playerRUpHeight>90</playerRUpHeight>
+  <playerBulletUp playerBulletRUpX="20" playerBulletRUpY="-90" />
+  <playerRUpSwimNumberOfFrames>1</playerRUpSwimNumberOfFrames>
+  <playerRUpSwimNumberOfFramesY>1</playerRUpSwimNumberOfFramesY>
+  <playerRUpSwimSrcX>455</playerRUpSwimSrcX>
+  <playerRUpSwimSrcY>569</playerRUpSwimSrcY>
+  <playerRUpSwimWidth>40</playerRUpSwimWidth>
+  <playerRUpSwimHeight>61</playerRUpSwimHeight>
+  <playerBulletUpSwim playerBulletRUpSwimX="22" playerBulletRUpSwimY="-60" />
+  <playerLUpNumberOfFrames>1</playerLUpNumberOfFrames>
+  <playerLUpNumberOfFramesY>1</playerLUpNumberOfFramesY>
+  <playerLUpSrcX>125</playerLUpSrcX>
+  <playerLUpSrcY>14</playerLUpSrcY>
+  <playerLUpWidth>30</playerLUpWidth>
+  <playerLUpHeight>90</playerLUpHeight>
+  <playerBulletUp playerBulletLUpX="5" playerBulletLUpY="-90" />
+  <playerLUpSwimNumberOfFrames>1</playerLUpSwimNumberOfFrames>
+  <playerLUpSwimNumberOfFramesY>1</playerLUpSwimNumberOfFramesY>
+  <playerLUpSwimSrcX>80</playerLUpSwimSrcX>
+  <playerLUpSwimSrcY>572</playerLUpSwimSrcY>
+  <playerLUpSwimWidth>45</playerLUpSwimWidth>
+  <playerLUpSwimHeight>63</playerLUpSwimHeight>
+  <playerBulletUpSwim playerBulletLUpSwimX="12" playerBulletLUpSwimY="-60" />
+  <playerRNormalNumberOfFrames>1</playerRNormalNumberOfFrames>
+  <playerRNormalNumberOfFramesY>1</playerRNormalNumberOfFramesY>
+  <playerRNormalSrcX>290</playerRNormalSrcX>
+  <playerRNormalSrcY>34</playerRNormalSrcY>
+  <playerRNormalWidth>50</playerRNormalWidth>
+  <playerRNormalHeight>70</playerRNormalHeight>
+  <playerBulletNormal playerBulletRNormalX="45" playerBulletRNormalY="-44" />
+  <playerLNormalNumberOfFrames>1</playerLNormalNumberOfFrames>
+  <playerLNormalNumberOfFramesY>1</playerLNormalNumberOfFramesY>
+  <playerLNormalSrcX>220</playerLNormalSrcX>
+  <playerLNormalSrcY>34</playerLNormalSrcY>
+  <playerLNormalWidth>50</playerLNormalWidth>
+  <playerLNormalHeight>70</playerLNormalHeight>
+  <playerBulletNormal playerBulletLNormalX="1" playerBulletLNormalY="-44" />
+  <player1Loc player1X="1200" player1Y="0"/>
+  <player1Speed player1Xspeed="120" player1Yspeed="250"/>
+  <player1MaxSpeed player1MaxXspeed="350" player1MaxYspeed="300"/>
+</player>
+
+
+<words>
+  <wordsNumber>6</wordsNumber>
+  <wordsX>300</wordsX>
+  <wordsY>100</wordsY>
+  <wordsSpaceX>70</wordsSpaceX>
+  <wordsSpaceY>50</wordsSpaceY>
+  <words0>Start</words0>
+  <words1>Sound</words1>
+  <words2>Music</words2>
+  <words3>Controls</words3>
+  <words4>Help</words4>
+  <words5>Exit</words5>
+</words>
+
+
+<help>
+  <helpTitle>HELP !!!</helpTitle>
+  <helpNumber>7</helpNumber>
+  <helpX>300</helpX>
+  <helpY>100</helpY>
+  <helpSpaceX>70</helpSpaceX>
+  <helpSpaceY>40</helpSpaceY>
+  <help0>Press 'F' OR 'B' to Fire</help0>
+  <help1>Press 'SPACE' OR 'A' to JUMP</help1>
+  <help2>Press 'A' OR 'LEFT' to move in LEFT Direction</help2>
+  <help3>Press 'D' OR 'RIGHT' to move in Right Direction</help3>
+  <help4>Press 'W' OR 'UP' for UP</help4>
+  <help5>Press 'S' OR 'DOWN' for Down</help5>
+  <help6>Press 'P' OR '2' to PAUSE/START</help6>
+</help>
+
+
+<controls>
+  <controlsTitle>CONTROLS</controlsTitle>
+  <controlsNumber>2</controlsNumber>
+  <controlsX>300</controlsX>
+  <controlsY>100</controlsY>
+  <controlsSpaceX>70</controlsSpaceX>
+  <controlsSpaceY>50</controlsSpaceY>
+  <controls0>WiiMote</controls0>
+  <controls1>Keyboard</controls1>
+</controls>
+
+
+<music>
+  <musicTitle>MUSIC</musicTitle>
+  <musicNumber>2</musicNumber>
+  <musicX>300</musicX>
+  <musicY>100</musicY>
+  <musicSpaceX>70</musicSpaceX>
+  <musicSpaceY>50</musicSpaceY>
+  <music0>Start</music0>
+  <music1>Stop</music1>
+</music>
+
+
+<sound>
+  <soundTitle>SOUND</soundTitle>
+  <soundNumber>2</soundNumber>
+  <soundX>300</soundX>
+  <soundY>100</soundY>
+  <soundSpaceX>70</soundSpaceX>
+  <soundSpaceY>50</soundSpaceY>
+  <sound0>Start</sound0>
+  <sound1>Stop</sound1>
+</sound>
+
+<introductionText>
+  <introductionTextDelay>40</introductionTextDelay>
+  <introductionTextSpeed>1000</introductionTextSpeed>
+  <introductionTextNumber>8</introductionTextNumber>
+  <introductionTextX>300</introductionTextX>
+  <introductionTextY>360</introductionTextY>
+  <introductionTextSpaceX>70</introductionTextSpaceX>
+  <introductionTextSpaceY>50</introductionTextSpaceY>
+  <introductionText0>This story is about a commando </introductionText0>
+  <introductionText1>named Bill who is member of</introductionText1>
+  <introductionText2>a special guerrilla task force</introductionText2>
+  <introductionText3>codenamed "Contra" repeatedly</introductionText3>
+  <introductionText4>sent to thwart an army of alien</introductionText4>
+  <introductionText5>invaders seeking to destroy the</introductionText5>
+  <introductionText6>Earth.</introductionText6>
+  <introductionText7>Music</introductionText7>
+  <introductionText8>Help</introductionText8>
+  <introductionText9>Exit</introductionText9>
+  <introductionText10>Start</introductionText10>
+  <introductionText11>Sound</introductionText11>
+  <introductionText12>Music</introductionText12>
+  <introductionText13>Help</introductionText13>
+  <introductionText14>Exit</introductionText14>
+  <introductionText15>Start</introductionText15>
+  <introductionText16>Sound</introductionText16>
+  <introductionText17>Music</introductionText17>
+  <introductionText18>Help</introductionText18>
+  <introductionText19>Exit</introductionText19>
+  <introductionText20>Start</introductionText20>
+  <introductionText21>Sound</introductionText21>
+  <introductionText22>Music</introductionText22>
+  <introductionText23>Help</introductionText23>
+  <introductionText24>Exit</introductionText24>
+  <introductionText25>Start</introductionText25>
+</introductionText>
+
+
+<clickoff>
+  <clickoffFile>images/clickoff.png</clickoffFile>
+  <clickoffWidth>40</clickoffWidth>
+  <clickoffHeight>40</clickoffHeight>
+  <clickoffSrcX>0</clickoffSrcX>
+  <clickoffSrcY>0</clickoffSrcY>
+  <clickoffTransparency>false</clickoffTransparency>
+</clickoff>
+
+<clickon>
+  <clickonFile>images/clickon.png</clickonFile>
+  <clickonWidth>40</clickonWidth>
+  <clickonHeight>40</clickonHeight>
+  <clickonSrcX>0</clickonSrcX>
+  <clickonSrcY>0</clickonSrcY>
+  <clickonTransparency>false</clickonTransparency>
+</clickon>
+
+
+</GameData>

@@ -1,0 +1,42 @@
+Name: Navin Soni
+Email: nsoni@g.clemson.edu
+Date: 12/13/2012
+
+Prerequisites:
+--------------
+
+* Simple DirectMedia Layer (SDL) 1.2 Library
+* Bluetooth control (can be added in ubuntu by adding bluetooth)
+* WiiMote control (can be added in ubuntu by adding cwiid)
+* Expat
+
+Description:
+------------
+
+Contra is a 2D space shooter game that I have developed as part of the CPSC 870 course at Clemson University instructed by Dr. Brian Malloy.
+
+Technical details:
+------------------
+
+* Game entirely developed in C++.
+* Uses the Simple DirectMedia Layer (SDL) Libraries.
+* Showcases design patterns-  singleton,Abstract Factory and composition.
+* Utilizes Inheritance.
+* Utilizes XML Parsing for all configurable parameters.
+* Supports WiiMote.
+
+2D Game development concepts:
+-----------------------------
+
+* Background and Images
+* Single frame sprites and their movement
+* Multi Frame sprites and their animation
+* Parallax Scrolling.
+* Collision detection.
+* Projectiles.
+* Explosions.
+* Artificial Intelligence concepts.
+* Keyboard control of a player sprite.
+* Menus and navigation.
+* Background sound control.
+
